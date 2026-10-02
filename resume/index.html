@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitarth Shukla: Resume</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a href="../index.html">Home</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="../contact/index.html">Contact</a>
+    <a href="index.html" aria-current="page">Resume</a>
+    <a href="https://github.com/HitarthSS"
+       target="_blank" rel="noopener noreferrer">GitHub</a>
+  </nav>
+
+  <main>
+    <header>
+      <h1>Hitarth Shukla</h1>
+      <p>
+        <a href="mailto:hitarths.shukla@gmail.com">
+          hitarths.shukla@gmail.com
+        </a>
+      </p>
+    </header>
+
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <h3>University of California, San Diego</h3>
+      <p>Bachelor of Science in Data Science</p>
+      <p>
+        Expected graduation:
+        <time datetime="2028-06">June 2028</time>
+      </p>
+    </section>
+
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experience</h2>
+
+      <article>
+        <h3>Research Assistant</h3>
+        <p>Advanced Robotics and Control Laboratory (ARCLab), UCSD</p>
+        <p>
+          <time datetime="2026-04">April 2026</time> – Present
+        </p>
+        <ul>
+          <li>
+            Developed a real-to-sim and teleoperation testbed that converts
+            ROS2 stereo recordings and depth estimates into an interactive
+            surgical environment with reconstructed needles, deformable
+            sutures, and a controllable da Vinci Research Kit manipulator.
+          </li>
+          <li>
+            Investigated 3D suture reconstruction and tracking by integrating
+            SAM3 and FoundationStereo with B-spline fitting, constrained
+            optimization, and extended Kalman filtering.
+          </li>
+          <li>
+            Contributed to an NVIDIA collaboration on physics-based
+            surgical-scene reconstruction by comparing simulated behavior
+            with real-world observations and calibrating simulation parameters.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Data Science Researcher</h3>
+        <p>Stanford University</p>
+        <p>
+          <time datetime="2023-06">June 2023</time> –
+          <time datetime="2024-06">June 2024</time>
+        </p>
+        <ul>
+          <li>
+            Designed a continuous affect-estimation framework using a
+            PyTorch deep neural network for valence-arousal regression,
+            achieving over 90% correlation with ground truth.
+          </li>
+          <li>
+            Developed EEG preprocessing experiments using ICA, bandpass
+            filtering, and wavelet transforms to suppress ocular and
+            motion artifacts.
+          </li>
+          <li>
+            Extracted power spectral density and time-frequency features
+            from multi-channel EEG, producing training representations
+            for over 10,000 signal segments.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Team President &amp; Lead Software Engineer</h3>
+        <p>FIRST Robotics Competition (FRC)</p>
+        <p>
+          <time datetime="2021-09">September 2021</time> –
+          <time datetime="2024-06">June 2024</time>
+        </p>
+        <ul>
+          <li>
+            Led over 60 members across mechanical, electrical, and software
+            teams to deliver three competition robots on a budget exceeding
+            $100,000 within six-week build cycles.
+          </li>
+          <li>
+            Built Java/WPILib field-centric swerve control with inverse
+            kinematics and trajectory generation for precise,
+            orientation-independent driving.
+          </li>
+          <li>
+            Built autonomous navigation by combining PhotonVision AprilTags,
+            IMU, and wheel odometry with PID/feedforward control, achieving
+            sub-inch endpoint repeatability in controlled autonomous tests.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="projects">
+      <h2 id="projects">Projects</h2>
+
+      <article>
+        <h3>Defense Simulator Project</h3>
+        <p>Y Combinator AI Hackathon</p>
+        <p><time datetime="2024-11">November 2024</time></p>
+        <ul>
+          <li>
+            Designed a defense-simulation pipeline using Anthropic LLMs
+            and Adalflow over more than 300 pages of military doctrine
+            to study tactical response and threat assessment.
+          </li>
+          <li>
+            Built a Mapbox GL and Next.js geospatial-analysis interface
+            that reduced manual analysis time by 80%; demonstrated the
+            system to the Supabase CEO and a Y Combinator managing partner.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Real-Time Emotion Classification Model</h3>
+        <p>Independent Research</p>
+        <p>
+          <time datetime="2024-07">July 2024</time> –
+          <time datetime="2024-08">August 2024</time>
+        </p>
+        <ul>
+          <li>
+            Engineered a real-time machine learning model extending the
+            EMOTIC research paper, achieving a 5% higher F1-score through
+            data normalization, augmentation, and feature engineering.
+          </li>
+          <li>
+            Designed a multimodal framework integrating YOLO object
+            detection and environmental context mapping for simultaneous
+            multi-person detection, achieving 95% classification accuracy
+            across diverse scenes.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">Technical Skills</h2>
+      <ul>
+        <li>
+          <strong>Languages:</strong>
+          Python, Java, JavaScript, SQL, Swift
+        </li>
+        <li>
+          <strong>Tools:</strong>
+          Git, Docker, React/Next.js, Firebase, AWS/GCP, Mapbox GL
+        </li>
+        <li>
+          <strong>Machine Learning and Data:</strong>
+          PyTorch, TensorFlow/Keras, scikit-learn, Pandas,
+          NumPy/SciPy, Matplotlib, Anthropic LLMs, Adalflow
+        </li>
+        <li>
+          <strong>Robotics and Simulation:</strong>
+          ROS2, MuJoCo, NVIDIA Newton, WPILib, PhotonVision,
+          FoundationStereo, SAM3, YOLO
+        </li>
+        <li>
+          <strong>Research Methods:</strong>
+          Deep Learning, Computer Vision, Signal Processing,
+          Time-Frequency Analysis, Sensor Fusion, B-splines,
+          Optimization, Extended Kalman Filtering
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
